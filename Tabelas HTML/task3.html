@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <style>
+        .container {
+            display: inline;
+        }
+        table {
+            height: 150px;
+            width: 150px;
+            margin: 50px calc(50vw - 75px);
+        }
+        .table3{
+            height: 250px;
+            width: 250px;
+            margin: 50px calc(50vw - 125px);
+        }
+
+        .blue {
+            background-color: blue;
+        }
+        .red {
+            background-color: red;
+        }
+        .black {
+            background-color: black;
+        }
+        .green{
+            background-color: green;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table border>
+            <tr>
+                <td colspan="3" class="green"></td>
+            </tr>
+            <tr>
+                <td class="red"></td>
+                <td class="blue"></td>
+                <td class="red"></td>
+            </tr>
+            <tr>
+                <td class="blue"></td>
+                <td class="red"></td>
+                <td class="blue"></td>
+            </tr>
+        </table>
+        <table border>
+            <tr>
+                <td rowspan="3" class="black"></td>
+                <td class="blue"></td>
+                <td class="yellow"></td>
+            </tr>
+            <tr>
+                <td class="yellow"></td>
+                <td class="blue"></td>
+            </tr>
+            <tr>
+                <td class="blue"></td>
+                <td class="yellow"></td>
+            </tr>
+        </table>
+        <table class="table3" border>
+            <tr>
+                <td colspan="5" class="red"></td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="green"></td>
+                <td class="black"></td>
+                <td class="blue"></td>
+                <td class="red"></td>
+                <td class="blue"></td>
+            </tr>
+            <tr>
+                <td class="black"></td>
+                <td class="yellow"></td>
+                <td rowspan="2" class="black"></td>
+                <td class="green"></td>
+            </tr>
+            <tr>
+                <td class="yellow"></td>
+                <td class="red"></td>
+                <td class="yellow"></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="blue"></td>
+                <td class="red"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
